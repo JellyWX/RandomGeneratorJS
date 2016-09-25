@@ -1,0 +1,30 @@
+div.advanced {
+  margin:2%;
+  background-color:#ffaf7f;
+  width:20%
+}
+
+p.adv {
+  margin:1%;
+  font-weight:300;
+  font-family:monospace, sans-serif;
+  font-size:100%
+}
+
+input.repeats {
+  width:10%;
+  margin:1.25%;
+}
+
+input.check {
+  width:30%;
+  height:30%;
+  margin:0%
+}
+
+div.foot {
+  border-style:solid;
+  border-color:#333333;
+  border-width:0.5%;
+  margin:2%;
+}

@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Random Number Generator</title>
+    
+  </head>
+  <body>
+    <form>
+      <p>From</p><input type="number" id="s" value="0"/><p>To</p><input type="number" id="f" value="1"/>
+    </form>
+    
+    <button id="make" onClick="gen()" class="gen">Generate!</button>
+    <div id="out"><table id="out2"><tbody></tbody></table></div>
+    
+    
+    <button id="dropdown" onClick="dropdown()">Advanced</button>
+    
+    <div id="advanced" class="advanced">
+    
+    <form>
+    
+    <p class="adv" onmouseover="hovering('Number of times a random number should be made')">Repeats</p>
+    
+    <input type="number" id="repeat" value="1" class="repeats"/>
+    
+    <p class="adv" onmouseover="hovering('Whether the number of times a random number can be made should be limited. Means that you don\'t accidentally overload weak systems')">Limit repeats</p>
+    
+    <input type="checkbox" id="limit" checked="true" class="check"/>
+    
+    <p class="adv">Output as counts<p>
+    
+    <input type="checkbox" id="table" class="check"/>
+    </div>
+    
+    <div id="foot" class="foot">Hover over something and it will appear here</div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
